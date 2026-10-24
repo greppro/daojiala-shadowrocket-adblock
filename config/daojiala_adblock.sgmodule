@@ -1,0 +1,26 @@
+#!name=到家啦开屏广告拦截（测试版 V2）
+#!desc=仅拦截抓包中发现的广告 SDK 域名；不修改现有节点和 DNS。若开门异常请立即关闭模块。
+[Rule]
+DOMAIN,api.anythinktech.com,REJECT
+DOMAIN,adx.anythinktech.com,REJECT
+DOMAIN,tk.anythinktech.com,REJECT
+DOMAIN,da.anythinktech.com,REJECT
+DOMAIN,ujoy.anythinktech.com,REJECT
+DOMAIN,sdk.1rtb.net,REJECT
+DOMAIN,t2.fancyapi.com,REJECT
+DOMAIN,applus.fancydsp.com,REJECT
+DOMAIN,ad-open2.fancydsp.com,REJECT
+DOMAIN,sdkg.fancyapi.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,adservice.sigmob.cn,REJECT
+DOMAIN,sdk.adx.adwangmai.com,REJECT
+DOMAIN,sdk.zhangyuyidong.cn,REJECT
+DOMAIN,sdk.hzzfcm.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao1.com,REJECT
+DOMAIN,sdk.beizi.biz,REJECT
+DOMAIN,sdk-cfg.adx.adwangmai.com,REJECT
+DOMAIN,ad-api.adn-plus.com.cn,REJECT
+DOMAIN,p66-ad.adkwai.com,REJECT
+DOMAIN,sdkquic.e.qq.com,REJECT
